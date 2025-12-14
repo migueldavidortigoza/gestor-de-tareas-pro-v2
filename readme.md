@@ -113,16 +113,16 @@ npm run dev
 ```
 
 4. Abrir el frontend:
-• Abrir el archivo **index.html** con Live Server o directamente en el navegador 
+- Abrir el archivo **index.html** con Live Server o directamente en el navegador 
 
 
 ## 📚 Qué demuestra este proyecto 
-• Separación clara entre Frontend y Backend
-• Creación y consumo de una API REST
-• Manejo de rutas y lógica de servidor
-• Uso de asincronía con Fetch y async/await
-• Persistencia de datos sin base de datos
-• Estructuración correcta de un proyecto Full Stack
+- Separación clara entre Frontend y Backend
+- Creación y consumo de una API REST
+- Manejo de rutas y lógica de servidor
+- Uso de asincronía con Fetch y async/await
+- Persistencia de datos sin base de datos
+- Estructuración correcta de un proyecto Full Stack
 
 
 ## 🧑‍💻 Autor
