@@ -1,6 +1,7 @@
 # 📝 Gestor de Tareas Pro v2
 
 Aplicación **Full Stack** para la gestión de tareas, desarrollada con **Node.js y Express** en backend y **JavaScript puro** en frontend.
+
 Permite crear, listar, editar y eliminar tareas mediante una **API REST**, con persistencia de datos en archivos JSON.
 
 
@@ -100,7 +101,7 @@ gestor-de-tareas-pro-v2/
 git clone https://github.com/migueldavidortigoza/gestor-de-tareas-pro-v2.git
 ```
 
-2. Ingresar al backend e instalar dependecias: 
+2. Ingresar al backend e instalar dependencias: 
 ```
 cd backend
 npm install
