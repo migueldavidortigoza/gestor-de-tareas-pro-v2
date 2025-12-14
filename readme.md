@@ -1,6 +1,6 @@
-# 📝 Gestor de Tareas PRO V2
+# 📝 Gestor de Tareas Pro v2
 
-Aplicación Full Stack para la gestión de tareas, desarrollada con **Node.js y Express** en backend y **JavaScript puro** en frontend.
+Aplicación **Full Stack** para la gestión de tareas, desarrollada con **Node.js y Express** en backend y **JavaScript puro** en frontend.
 Permite crear, listar, editar y eliminar tareas mediante una **API REST**, con persistencia de datos en archivos JSON.
 
 
@@ -13,7 +13,7 @@ Permite crear, listar, editar y eliminar tareas mediante una **API REST**, con p
 - **Frontend (GitHub Pages)**
   https://migueldavidortigoza.github.io/gestor-de-tareas-pro-v2/
 
-- **Backend (Node + Express)**
+- **Backend (Node + Express - Render)**
   https://gestor-de-tareas-pro-v2.onrender.com
 
 
@@ -35,7 +35,7 @@ Permite crear, listar, editar y eliminar tareas mediante una **API REST**, con p
 - Node.js
 - Express.js
 - API REST
-- PErsistencia de datos en archivos JSON
+- Persistencia de datos en archivos JSON
 - Nodemon (entorno de desarrollo)
 
 
@@ -84,7 +84,7 @@ gestor-de-tareas-pro-v2/
 
 | Método |     Ruta        |      Descripción         | 
 |--------|-----------------|--------------------------|
-|  GET   | /api/tareas     | obtener todas las tareas |
+|  GET   | /api/tareas     | Obtener todas las tareas |
 |  POST  | /api/tareas     | Crear una nueva tarea    |
 |  PUT   | /api/tareas/:id | Editar una tarea         |
 | DELETE | /api/tareas/:id | Eliminar una tarea       |
@@ -96,8 +96,9 @@ gestor-de-tareas-pro-v2/
 ## ⚙️ Instalación y uso en local
 
 1. Clonar el repositorio:
-
+```
 git clone https://github.com/migueldavidortigoza/gestor-de-tareas-pro-v2.git
+```
 
 2. Ingresar al backend e instalar dependecias: 
 ```
@@ -114,15 +115,13 @@ npm run dev
 • Abrir el archivo **index.html** con Live Server o directamente en el navegador 
 
 
-## 📚 Qué demuestra este proyecto
-``` 
+## 📚 Qué demuestra este proyecto 
 • Separación clara entre Frontend y Backend
 • Creación y consumo de una API REST
 • Manejo de rutas y lógica de servidor
 • Uso de asincronía con Fetch y async/await
 • Persistencia de datos sin base de datos
 • Estructuración correcta de un proyecto Full Stack
-```
 
 
 ## 🧑‍💻 Autor
