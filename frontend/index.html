@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas PRO v2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>📝 Gestor de Tareas PRO V2</h1>
+    </header>
+
+    <main id="app">
+        <form id="form-tarea">
+            <input type="text" id="titulo" required placeholder="Título de la tarea">
+            <input type="text" id="descripcion" placeholder="Descripción (opcional)">
+            <select id="prioridad">
+                <option value="Alta">Alta</option>
+                <option value="Media" selected>Media</option>
+                <option value="Baja">Baja</option>
+            </select>
+            <button type="submit">Agregar tarea</button>
+        </form>
+
+        <div id="lista-tareas"></div>
+    </main>
+
+    <div id="modal-editar">
+        <div class="modal-contenido">
+            <h3>Editar tarea</h3>
+
+            <form id="form-editar">
+                <input id="edit-titulo" placeholder="Título">
+                <input id="edit-descripcion" placeholder="Descripción">
+                <select id="edit-prioridad">
+                    <option value="Alta">Alta</option>
+                    <option value="Media">Media</option>
+                    <option value="Baja">Baja</option>
+                </select>
+
+                <button type="submit">Guardar</button>
+                <button id="cancelar-edicion" type="button">Cancelar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
